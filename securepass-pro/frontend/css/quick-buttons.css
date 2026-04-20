@@ -1,0 +1,32 @@
+/* Quick Action Buttons - FORCE CLICKABLE */
+
+#quickAddPassword, #quickAddReminder, #quickWorkNotes, #quickUploadExcel {
+    pointer-events: all !important;
+    cursor: pointer !important;
+    z-index: 999 !important;
+    position: relative !important;
+    opacity: 1 !important;
+}
+
+#quickAddPassword:hover, #quickAddReminder:hover, #quickWorkNotes:hover, #quickUploadExcel:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3) !important;
+}
+
+.quick-action-btn {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    position: relative !important;
+    z-index: 10 !important;
+    opacity: 1 !important;
+}
+
+.card-body .row.text-center, .card-body button {
+    pointer-events: auto !important;
+}
+
+.btn {
+    pointer-events: auto !important;
+}
+
